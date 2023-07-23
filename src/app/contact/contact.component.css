@@ -1,0 +1,28 @@
+.outer-container{
+    display: flex;
+    color: rgb(0, 0, 0);
+    /* background-color: #E1ECC8; */
+    height: 30em;
+    opacity: 0.8;
+    background-image: radial-gradient(#D9CAB3 0.5px, #212121 0.5px);
+    background-size: 10px 10px;
+}
+
+.social-media-container{
+    width: 50%;
+    padding: 100px 100px 100px 100px;
+    border-right: 2px solid #6D9886;
+    margin: 10px 10px;
+    color: #D9CAB3;
+}
+
+
+.form-container{
+    width: 30%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 40px;
+    
+}

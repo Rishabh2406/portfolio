@@ -1,0 +1,78 @@
+<div class="outer-container">
+<div class="social-media-container">
+    <div class="social-media-contacts">
+        <p><i class="fa fa-envelope"></i> jain.rishabh270@gmail.com</p>
+    </div>
+    <div class="social-media-contacts">
+        <p><i class="fa fa-github"></i> Rishabh Gadhia</p>
+    </div>
+    <div class="social-media-contacts">
+        <p><i class="fa fa-linkedin"></i> Rishabh Gadhia</p>
+    </div>
+    <div class="social-media-contacts">
+        <p><i class="fa fa-instagram"></i> rishabh_gadhia</p>
+    </div>
+    <!-- <div class="contact-form">
+
+    </div> -->
+</div>
+
+<div class="form-container">
+    <mat-card>
+        <form 
+        
+        #postform="ngForm">
+            <mat-form-field>
+                <input matInput
+                type="text"
+                name="name"
+                ngModel
+                required
+                minlength="3"
+                placeholder="Name"
+                #name="ngModel">
+            <mat-error *ngIf="name.invalid">Please enter your name</mat-error>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput
+                type="email"
+                name="email"
+                ngModel
+                required
+                placeholder="Email"
+                #email="ngModel">
+            <mat-error *ngIf="email.invalid">Please enter your email correctly</mat-error>
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput
+                type="text"
+                name="number"
+                ngModel
+                required
+                minlength="10"
+                maxlength="10"
+                placeholder="Number"
+                #number="ngModel">
+            <mat-error *ngIf="number.invalid">Please enter number correctly.</mat-error>
+            </mat-form-field>
+
+            <mat-form-field>
+                <textarea matInput
+                rows="4"
+                name = "query"
+                ngModel
+                required
+                placeholder="Query"
+                #content="ngModel"></textarea>
+                <mat-error *ngIf="content.invalid">Please enter your query.</mat-error>
+            </mat-form-field>
+            <br>
+            <button mat-raised-button
+            color="primary"
+            type ="submit">Submit</button>
+        </form>
+    </mat-card>
+</div>
+</div>

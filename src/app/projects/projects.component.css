@@ -1,0 +1,40 @@
+.containers{
+    display: flex;
+    
+opacity: 0.8;
+background-image: radial-gradient(#F6F6F6 0.5px, #212121 0.5px);
+background-size: 10px 10px;
+    margin-top: 0px;
+}
+.project-container{
+    width: 100%;
+    margin: 10px ;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    border: 2px solid #D9CAB3;
+    background-color: #6D9886;
+    /* animation-timing-function: ease-in; */
+    color: #000000;
+    border-radius: 8px ;
+    /* box-shadow: 5px 10px 15px #57554d; */
+    /* &:hover{
+        width: 242px;
+        transition: all 0.5s ease;
+    } */
+}
+
+
+
+.project-title{
+    margin: 3px ;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    padding: 10px 20px;
+
+}
+
+.project-description{
+    margin: 5px ;
+    /* padding: 10px 20px; */
+}

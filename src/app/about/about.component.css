@@ -1,0 +1,25 @@
+.container-flex{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+opacity: 0.8;
+background-image: radial-gradient(#F6F6F6 0.5px, #212121 0.5px);
+background-size: 10px 10px;
+
+    
+}
+
+.about-container{
+    margin-top: 30px;
+    color: #F6F6F6;
+}
+
+
+img{
+    border-radius: 50%;
+    border: 2px solid #A0C49D;
+    margin-top: 30px;
+}
