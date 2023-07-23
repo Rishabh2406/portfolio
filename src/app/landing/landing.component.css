@@ -66,11 +66,12 @@ background-size: 10px 10px;
   .landing-text-container{
     width: 100%;
     padding-left: 5em;
+    padding-top: 4rem;
     /* display: inline; */
   }
 
   .landing-image-container{
-    width: 20rem;
+    width: 15rem;
     margin: 5rem auto;
   }
 
