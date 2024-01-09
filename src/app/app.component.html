@@ -34,10 +34,10 @@
     </thead>
     <tbody>
       <tr *ngFor="let row of array">
-        <td>{{row?.number}}</td>
-        <td>{{row?.amount}}</td>
-        <td>{{row?.date}}</td>
-        <td>{{row?.interest}}</td>
+        <td>{{row['number']}}</td>
+        <td>{{row['amount']}}</td>
+        <td>{{row['date']}}</td>
+        <td>{{row['interest']}}</td>
       </tr>
       <tr *ngIf="totalPrinciple != 0">
         <td></td>
