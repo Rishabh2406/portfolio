@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   totalPrinciple = 0;
   totalInt  = 0;
   totalFinal = 0;
-  date: Date;
+  date: any;
   number: any = '';
   interest: any = '';
   amount: any = '';
