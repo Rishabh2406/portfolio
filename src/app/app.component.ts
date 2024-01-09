@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
   number: any = '';
   interest: any = '';
   amount: any = '';
-  array = [];
+  array: any = [];
   
   constructor(
     private http: HttpClient
