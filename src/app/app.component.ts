@@ -71,9 +71,9 @@ export class AppComponent implements OnInit {
     this.totalPrinciple = 0;
     this.totalInt = 0;
     this.array.forEach(el => {
-      this.totalPrinciple += Number(el?.amount);
-      this.totalInt += Number(el?.interest);
-      this.totalFinal += Number(el?.amount) + Number(el?.interest);
+      this.totalPrinciple += Number(el['amount']);
+      this.totalInt += Number(el['interest']);
+      this.totalFinal += Number(el['amount']) + Number(el['interest']);
     })
   }
 
