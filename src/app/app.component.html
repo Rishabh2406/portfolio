@@ -29,7 +29,6 @@
         <th scope="col">Amount</th>
         <th scope="col">Date</th>
         <th scope="col">Interest</th>
-        <th *ngIf="totalFinal!=0" scope="col">Total</th>
       </tr>
     </thead>
     <tbody>
@@ -44,9 +43,10 @@
         <td>{{totalPrinciple}}</td>
         <td></td>
         <td>{{totalInt}}</td>
-        <td *ngIf="totalFinal != 0">{{totalFinal}}</td>
       </tr>
     </tbody>
+    <p *ngIf="totalFinal != 0">{{totalFinal}} for {{array?.length}} items</p>
+    Total
   </table>
 
 </div>
